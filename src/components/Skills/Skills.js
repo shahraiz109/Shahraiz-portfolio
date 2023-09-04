@@ -1,7 +1,7 @@
 
 import {FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub} from "react-icons/fa"
 import {TbBrandJavascript} from "react-icons/tb"
-import {SiMongodb,SiRedux,SiExpress,SiChakraui,SiNetlify,SiVercel} from "react-icons/si"
+import { SiMongodb, SiRedux, SiNetlify, SiExpress } from "react-icons/si"
 import Githubcalendar from "react-github-calendar";
 
 import './Skills.css'
@@ -58,10 +58,10 @@ function Skills  () {
           <h5>NodeJs</h5>
         </li>
 
-        <li  className='skills__list-item btn btn--plain'>
+        {/* <li  className='skills__list-item btn btn--plain'>
           <SiChakraui size={80} id="color"/>
           <h5>Chakra UI</h5>
-        </li>
+        </li> */}
 
 
         <li  className='skills__list-item btn btn--plain'>
@@ -75,10 +75,10 @@ function Skills  () {
           <h5>Netlify</h5>
         </li>
 
-        <li  className='skills__list-item btn btn--plain'>
+        {/* <li  className='skills__list-item btn btn--plain'>
           <SiVercel size={80} id="color"/>
           <h5>Vercel</h5>
-        </li>
+        </li> */}
 
         
 

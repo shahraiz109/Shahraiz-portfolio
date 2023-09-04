@@ -9,6 +9,13 @@ import '@splidejs/react-splide/css';
 
 import '../ProjectContainer/ProjectContainer.css'
 import './Projects.css'
+import project1 from "../../assets/image/project1.png"
+import project2 from "../../assets/image/project2.jpg"
+import project3 from "../../assets/image/project3.jpg"
+import admin1 from "../../assets/image/admin1.jpg"
+import admin2 from "../../assets/image/admin2.jpg"
+import dev1 from "../../assets/image/dev1.jpg"
+import dev2 from "../../assets/image/dev2.jpg"
 
 
 function Projects()
@@ -27,14 +34,14 @@ function Projects()
       <div>
          <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src="https://media.discordapp.net/attachments/702481980025077853/1034460531043614800/unknown.png?width=1363&height=675" alt="Image 1"/>
+             <img src={project1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034490981522878554/unknown.png?width=1440&height=658" alt="Image 2"/>
+           <img src={project2} alt="Image 2"/>
            </SplideSlide>
 
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034491057368477906/unknown.png?width=1440&height=657" alt="Image 2"/>
+           <img src={project3} alt="Image 2"/>
            </SplideSlide>
 
         </Splide>
@@ -42,10 +49,10 @@ function Projects()
    
      <div>
 
-        <h3 className="about_project">Movie App</h3>
+        <h3 className="about_project">FITCLUB</h3>
 
         <p className='project__description'>
-          In the Movie App, you can search for any movie with all its details such as rating, release date, actors etc.
+          In this project you can grt information about fittness.I complete this project in 6 days.
         </p>
 
    
@@ -66,12 +73,12 @@ function Projects()
 
 
       <div id='b'>
-       <a href="https://fantastic-seahorse-6456d7.netlify.app/"  target="_blank">
+            <a href="https://serene-longma-ffd8c2.netlify.app"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/masai-course/rishukumar_fw20_0888/tree/master/unit-3/evaluation/Movies%20App" target="_blank" >
+            <a href="https://github.com/shahraiz109/jim-project.git" target="_blank" >
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
@@ -95,19 +102,19 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src="https://media.discordapp.net/attachments/702481980025077853/1034502096214573056/unknown.png?width=1375&height=676" alt="Image 1"/>
+             <img src={admin1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034502234035191838/unknown.png?width=1373&height=676" alt="Image 2"/>
+           <img src={admin2} alt="Image 2"/>
            </SplideSlide>
 
-           <SplideSlide>
+           {/* <SplideSlide>
            <img src="https://media.discordapp.net/attachments/702481980025077853/1034502334878851162/unknown.png?width=1375&height=676" alt="Image 2"/>
            </SplideSlide>
 
            <SplideSlide>
            <img src="https://media.discordapp.net/attachments/702481980025077853/1034502449890856960/unknown.png?width=1375&height=676" alt="Image 2"/>
-           </SplideSlide>
+           </SplideSlide> */}
 
 
         </Splide>
@@ -115,10 +122,10 @@ function Projects()
 
 <div>
 
-  <h3 className="about_project">Bella Vita Organic Clone</h3>
+  <h3 className="about_project">Admin Project</h3>
 
   <p className='project__description'>
-  Bella Vita Organic is an Ecommerce Website for natural products for beauty, skincare, and perfumes.A collaborative project team leader built by a team of 3 executed in 5 days. 
+   In this project you can see about the earning. Earning ratio is shown in graph.Overview is also show at bottom.I complete this project in 3 days  
   </p>
 
 
@@ -135,12 +142,12 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://gorgeous-taiyaki-33aee8.netlify.app/index.html"  target="_blank">
+            <a href="https://admin-project-first.netlify.app"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/rishunayak/sore-rate-9569"  target="_blank">
+            <a href="https://github.com/shahraiz109/Admin-project.git"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
@@ -163,25 +170,25 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src="https://media.discordapp.net/attachments/702481980025077853/1034508981898580058/unknown.png?width=1373&height=676" alt="Image 1"/>
+             <img src={dev1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034509092573691914/unknown.png?width=1369&height=676" alt="Image 2"/>
+           <img src={dev2} alt="Image 2"/>
            </SplideSlide>
 
-           <SplideSlide>
+           {/* <SplideSlide>
            <img src="https://media.discordapp.net/attachments/702481980025077853/1034509195871002674/unknown.png?width=1375&height=676" alt="Image 2"/>
-           </SplideSlide>
+           </SplideSlide> */}
 
         </Splide>
 </div>
 
 <div>
 
-  <h3 className="about_project">Deccan Herald Clone</h3>
+  <h3 className="about_project">Web Development</h3>
 
   <p className='project__description'>
-   Deccan Herald is an Indian English language daily newspaper published from the Indian state of Karnataka. Solo project executed in 5 days.
+   This is project about the intro of web development.I complete this project in 2 days 
   </p>
 
 
@@ -199,12 +206,12 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://decisive-iron-5903.vercel.app/"  target="_blank">
+            <a href="https://visionary-squirrel-aa13b1.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/rishunayak/decisive-iron-5903"  target="_blank">
+            <a href="https://github.com/shahraiz109/react-first-project.git"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     

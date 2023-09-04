@@ -12,6 +12,7 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import sheri from "../../assets/image/sheri.jpg"
 
 
 import './About.css'
@@ -48,14 +49,14 @@ function About  () {
                  
                  <div>
         
-                   <img src='https://avatars.githubusercontent.com/u/57229844?v=4' alt='rishu' id='profile'/>
+                   <img src={sheri} alt='rishu' id='profile'/>
     
                  </div>
 
                 <div>
                     <h4 className='about__desc'>
-                      Hi Everyone, I am Rishu Kumar Nayak from Maharajganj, Uttar Pradesh.
-                      I have completed my graduation in Bachelor of Computer Application from Babu Banarasi Das University, Lucknow.
+                      Hi Everyone, I am Shahraiz Ali from Lahore Pakistan.
+                      I have completed my Ics  from Punjab College Bahria Town Lahore and now i am doing my bachelor in cs(computer science) from  University of centeral Punjab(UCP) Lahore.
                     </h4>
                     <br/>
                   <div id='interest' >
@@ -63,7 +64,7 @@ function About  () {
                
                    <BiStar className='about__name'/> <span className='about__name'> Listing Music</span>
                    <br/>
-                   <BiStar className='about__name'/> <span className='about__name'> Playing Badminton </span>
+                   <BiStar className='about__name'/> <span className='about__name'> Playing Cricket </span>
                    <br/>
                    <BiStar className='about__name'/> <span className='about__name'> Watching Cricket</span>
                    <br/>
@@ -82,7 +83,7 @@ function About  () {
 
      
       <VerticalTimeline lineColor={linecolor}>
-        <VerticalTimelineElement date='May 2021 - December 2021'  icon={<SchoolIcon />} contentStyle={{
+        <VerticalTimelineElement date='2019-2021'  icon={<SchoolIcon />} contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
@@ -99,17 +100,16 @@ function About  () {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              Punjab College Bahria
             </h4>
             <p data-aos="fade-right">
-              Joined the Military style Bootcamp to learn Full Stack Web Development
-              and Data Structures. Also learned many soft skills in the process.
+              During my college days i started learn soft  skills in computer like Web Development.
             </p>
 
         </VerticalTimelineElement>
 
 
-        <VerticalTimelineElement date='June 2018 - June 2021'  icon={<SchoolIcon />} contentStyle={{
+        <VerticalTimelineElement date='2022-2026'  icon={<SchoolIcon />} contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
@@ -126,10 +126,10 @@ function About  () {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Bachelor of Computer Application (BCA)
+              Bachelor IN COMPUTER SCIENCE (BS CS)
             </h4>
             <p data-aos="fade-right">
-               Babu Banarasi Das University, Lucknow
+               Uversity Of Centeral Punjab(continue)
             </p>
 
         </VerticalTimelineElement>
