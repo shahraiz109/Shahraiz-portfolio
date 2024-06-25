@@ -56,7 +56,7 @@ function About  () {
                 <div>
                     <h4 className='about__desc'>
                       Hi Everyone, I am Shahraiz Ali from Lahore Pakistan.
-                      I have completed my Ics  from Punjab College Bahria Town Lahore and now i am doing my bachelor in cs(computer science) from  University of centeral Punjab(UCP) Lahore.
+                      I have completed my Ics  from Punjab College Bahria Town Lahore and now i am doing my bachelor in cs(computer science) from  Minhaj University Lahore.
                     </h4>
                     <br/>
                   <div id='interest' >
@@ -129,7 +129,7 @@ function About  () {
               Bachelor IN COMPUTER SCIENCE (BS CS)
             </h4>
             <p data-aos="fade-right">
-               Uversity Of Centeral Punjab(continue)
+               Minhaj University Lahore
             </p>
 
         </VerticalTimelineElement>

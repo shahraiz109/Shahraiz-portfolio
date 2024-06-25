@@ -1,7 +1,7 @@
 
 import {FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub} from "react-icons/fa"
 import {TbBrandJavascript} from "react-icons/tb"
-import { SiMongodb, SiRedux, SiNetlify, SiExpress } from "react-icons/si"
+import { SiMongodb, SiRedux, SiNetlify, SiExpress, SiMysql, SiTypescript } from "react-icons/si"
 import Githubcalendar from "react-github-calendar";
 
 import './Skills.css'
@@ -36,10 +36,21 @@ function Skills  () {
           <h5> JavaScript</h5>
         </li>
 
+        
+        <li  className='skills__list-item btn btn--plain'>
+          <SiTypescript size={80} id="color"/>
+          <h5> Typescript</h5>
+        </li>
+
 
         <li  className='skills__list-item btn btn--plain'>
           <SiMongodb size={80} id="color"/>
           <h5>MongoDB</h5>
+        </li>
+
+        <li  className='skills__list-item btn btn--plain'>
+          <SiMysql size={80} id="color"/>
+          <h5>Mysql</h5>
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
