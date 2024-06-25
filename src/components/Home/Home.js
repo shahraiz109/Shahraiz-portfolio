@@ -2,7 +2,7 @@ import "./Home.css"
 import Typewriter from "typewriter-effect";
 import { Email, Phone } from '@material-ui/icons'
 import GitHubIcon from '@material-ui/icons/GitHub'
-import profile from "../../../src/assets/image/resume_shahraiz_ali.pdf"
+import profile from "../../../src/assets/image/shahraiz-resume.pdf"
 // import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
 function Home()
