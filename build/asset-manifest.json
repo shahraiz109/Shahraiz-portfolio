@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3aba4862.css",
+    "main.js": "/static/js/main.0f8afd0d.js",
+    "static/media/sheri.jpg": "/static/media/sheri.6fd48357940df4b63f7f.jpg",
+    "static/media/project1.png": "/static/media/project1.968843a9c064b8067f0f.png",
+    "static/media/dev2.jpg": "/static/media/dev2.62b55d5f49b747d3e02a.jpg",
+    "static/media/project3.jpg": "/static/media/project3.c76021787bf00f245fef.jpg",
+    "static/media/admin1.jpg": "/static/media/admin1.9e97b6ae8799a8a6e1b5.jpg",
+    "static/media/project2.jpg": "/static/media/project2.ed360c207f23d4ff4c99.jpg",
+    "static/media/dev1.jpg": "/static/media/dev1.acafbede8211bc095d6e.jpg",
+    "static/media/shahraiz-resume.pdf": "/static/media/shahraiz-resume.292ab2f97b7b8ee726ad.pdf",
+    "static/media/admin2.jpg": "/static/media/admin2.f0f4ec5ae971d035d26e.jpg",
+    "index.html": "/index.html",
+    "main.3aba4862.css.map": "/static/css/main.3aba4862.css.map",
+    "main.0f8afd0d.js.map": "/static/js/main.0f8afd0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3aba4862.css",
+    "static/js/main.0f8afd0d.js"
+  ]
+}

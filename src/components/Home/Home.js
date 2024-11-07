@@ -2,7 +2,7 @@ import "./Home.css"
 import Typewriter from "typewriter-effect";
 import { Email, Phone } from '@material-ui/icons'
 import GitHubIcon from '@material-ui/icons/GitHub'
-import profile from "../../../src/assets/image/shahraiz-resume.pdf"
+import profile from "../../../src/assets/image/Shahraiz.pdf"
 // import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
 function Home()
@@ -22,7 +22,7 @@ function Home()
 
 
         <p id="des">Adaptable and responsible web developer capable of writing production ready code using HTML, CSS, JavaScript,
-         React.Js on the front-end and NodeJs and MongoDB on the back-end to build single-page applications.</p>
+         React.Js, Next.js, ShadCn, Redux, Redux Toolkit on the front-end and NodeJs and MongoDB, SQL,  on the back-end to build single-page applications.</p>
   
  
        <section id="social">

@@ -12,7 +12,7 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import sheri from "../../assets/image/sheri.jpg"
+import sheri from "../../assets/image/shahraiz.jpg"
 
 
 import './About.css'
@@ -56,7 +56,7 @@ function About  () {
                 <div>
                     <h4 className='about__desc'>
                       Hi Everyone, I am Shahraiz Ali from Lahore Pakistan.
-                      I have completed my Ics  from Punjab College Bahria Town Lahore and now i am doing my bachelor in cs(computer science) from  Minhaj University Lahore.
+                      I have completed my Ics  from Punjab College Bahria Town Lahore and now i am doing my bachelor in cs(computer science) from  Virtual University Lahore.
                     </h4>
                     <br/>
                   <div id='interest' >
@@ -126,10 +126,10 @@ function About  () {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Bachelor IN COMPUTER SCIENCE (BS CS)
+              Bachelor IN COMPUTER SCIENCE (BSCS)
             </h4>
             <p data-aos="fade-right">
-               Minhaj University Lahore
+               Virtual University Lahore
             </p>
 
         </VerticalTimelineElement>
